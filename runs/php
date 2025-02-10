@@ -1,0 +1,4 @@
+#!/usr/bin/env bash 
+brew install php
+brew install composer
+pecl install xdebug
