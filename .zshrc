@@ -107,7 +107,7 @@ alias fv='file=$(fzf) && [ -n "$file" ] && nvim "$file"'
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:~/.local/scripts
+alias journal='nvim -u ~/.config/nvim/journal.lua'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
 
